@@ -1,1 +1,1 @@
-<h1>Scraping Data Rebublika Online</h1>
+<h1>Scraping Data Republika Online</h1>
