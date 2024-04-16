@@ -9,7 +9,7 @@ page = requests.get("https://www.republika.co.id/")
 obj = BeautifulSoup(page.text, 'html.parser')
 
 
-f=open('D:\\Python\\web_scraping\\headline1.json','w')
+f=open('D:\\Scraping Data 1\\Scraping_Data_1\\web_scraping\\headline1.json','w')
 data=[]
 for headline in obj.find_all('li', class_='list-group-item list-border conten1'):
     judul = headline.find('h3').text if headline.find('h3') else 'Tidak ada judul'
